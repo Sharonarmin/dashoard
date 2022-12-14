@@ -9,7 +9,7 @@
 <link rel="icon" type="image/png" href="../assets/img/favicon.png">
 <title>
     Material Dashboard 2 PRO by Creative Tim
-  </title>
+</title>
 
 
 
@@ -667,7 +667,7 @@
       </footer>
     </div>
   </main>
-  
+
   <div class="fixed-plugin">
     <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
       <i class="material-icons py-2">settings</i>
@@ -1004,6 +1004,7 @@
       Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
     }
   </script>
+
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->

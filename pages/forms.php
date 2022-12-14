@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
+    <title>forms</title>
 
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
@@ -14,7 +14,8 @@
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
     <link id="pagestyle" href="../assets/css/material-dashboard.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="../assets/css/style1.css.css">
+    <link rel="stylesheet" href="../assets/css/style1.css">
+    <link rel="stylesheet" href="../assets/css/style2.css">
 
 </head>
 
@@ -168,29 +169,40 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="input-group input-group-outline my-3">
-                            <label class="form-label">Email</label>
-                            <input type="email" class="form-control">
+                            <input type="email" class="form-control" placeholder="Enter Your Name">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="input-group input-group-outline my-3">
-                            <label class="form-label">Email</label>
-                            <input type="email" class="form-control" disabled>
+                            <input type="email" class="form-control" placeholder="Enter Your Email">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="input-group input-group-outline is-valid my-3">
-                            <label class="form-label">Success</label>
-                            <input type="email" class="form-control">
+                        <div class="input-group input-group-outline my-3">
+                            <input type="email" class="form-control" placeholder="Enter Your Number">
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="input-group input-group-outline is-invalid my-3">
-                            <label class="form-label">Error</label>
-                            <input type="email" class="form-control">
+                        <div class="input-group input-group-outline my-3">
+                            <input type="email" class="form-control" placeholder="Enter Your Account Number">
                         </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group input-group-outline my-3">
+                            <input type="email" class="form-control" placeholder="Enter Your Account Number">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group input-group-outline my-3">
+                            <input type="email" class="form-control" placeholder="Enter Your Account Number">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
                     </div>
                 </div>
             </form>
@@ -309,9 +321,5 @@
     <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
     <script src="../assets/js/plugins/chartjs.min.js"></script>
 
-
-
-
 </body>
-
 </html>
